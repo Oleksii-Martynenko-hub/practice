@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development PORT=3000 webpack-dev-server",
     "build": "cross-env NODE_ENV=production webpack",
-    "start": "npm run build && node index.js"
+    "start": "npm run build && node server.js"
   },
   "devDependencies": {
     "html-loader": "^3.0.1",

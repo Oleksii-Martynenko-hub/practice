@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("roman",function(e){const n={I:1,V:5,X:10,L:50,C:100,D:500,M:1e3};for(let t=0,l=0;t<=e.length;t++){if(!n[e[t]])return 0;if(t!==e.length-1)l+=n[e[t]]<n[e[t+1]]?-1*n[e[t]]:n[e[t]];else if(t===e.length-1)return l+=n[e[t]]}}("XXIV"))})();
